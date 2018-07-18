@@ -1,0 +1,29 @@
+{
+    "name": "nmred/kafka-php",
+    "description": "Kafka client for php",
+    "type": "library",
+    "keywords": [
+        "Client",
+        "Kafka"
+    ],
+    "homepage": "http://www.swanlinux.net",
+    "license": "BSD-3-Clause",
+    "config": {
+        "platform": {
+            "php": "7.1.12"
+        },
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^7.1",
+        "amphp/amp": "^2.0.3",
+        "lcobucci/clock": "^1.0",
+        "psr/log": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kafka\\": "src/"
+        }
+    }
+}
